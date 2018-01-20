@@ -1,0 +1,60 @@
+/* you can change the colors here */
+:root {
+  --text-color: #69d6a0;
+  --background-color: #2f2f32;
+}
+
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 12px;
+  z-index: 99999;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+body {
+  color: var(--text-color);
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  visibility: hidden;
+}
+
+#curLine {
+  text-align: center;
+  position: relative;
+  line-height: 100vh;
+  display: inline-block;
+  vertical-align: middle;
+  background: var(--background-color);
+  font-size: 16px;
+  z-index: 50;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+#credits {
+  position: fixed;
+  font-weight: center;
+  bottom: 15px;
+  left: 15px;
+}
+
+#navigation {
+  list-style: decimal-leading-zero;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+#navigation li {
+  text-align: right;
+}
