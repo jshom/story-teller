@@ -1,7 +1,7 @@
 # Story Teller
 Change the way people perceive information. Make the user live in the present. This was done by revealing a story through the illusion of someone typing and deleting messages in realtime.
 ## Usage
-To use this, you can edit the myStory variable in config.js. Here is an example
+To use this, you can edit the config variable in config.js. Here is an example
 ``` javascript
 // config.js
 const config = {
